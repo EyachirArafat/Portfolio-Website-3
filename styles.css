@@ -97,8 +97,6 @@
 .hero-section .profile-image img {
   width: 360px;
   height: 300px;
-  border-bottom: 2px double #00a2ff;
-  border-bottom-right-radius: 20px;
 }
 .port-title span {
   font-size: 1.1em;
@@ -200,6 +198,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 6%;
+  white-space: nowrap;
 }
 .port-project-nav .visit-dribble {
   display: flex;
@@ -226,13 +225,6 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2em;
   padding: 20px 6%;
-}
-
-.pcard-1 {
-  border-bottom: 2px solid #a2dcf5;
-  border-bottom-width: 6px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
 }
 
 .portfolio-card .pcard,
@@ -390,11 +382,10 @@
   font-size: 12px;
 }
 
+/* Responsive for Mobile max-width: 865px*/
+/* Responsive for Mobile max-width: 865px*/
 
-/* Responsive for Mobile max-width: 800px*/
-/* Responsive for Mobile max-width: 800px*/
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 865px) {
   /* Navbar Section */
   .logo > img {
     width: 90px;
@@ -417,13 +408,15 @@
     padding-top: 6vh;
   }
   .hero-section .profile-image img {
-    width: 310px;
+    width: 270px;
+    min-width: 240px;
+    height: 270px;
   }
 
   .hero-text {
     padding: 7% 0 5% 10%;
   }
-  .port-title{
+  .port-title {
     padding-top: 50px;
   }
   .port-title span {
@@ -434,6 +427,7 @@
     font-size: 2em;
   }
   .work-related {
+    font-size: 1em;
     padding-bottom: 20px;
     width: 100%;
   }
@@ -466,6 +460,16 @@
     grid-template-rows: repeat(2, 1fr);
   }
 
+  .port-project-nav .visit-dribble {
+    height: 40px;
+    padding: 0 10px;
+    font-size: 14px;
+    & img {
+      padding-right: 8px;
+      width: 30px;
+    }
+  }
+
   /* testimonials section */
   .clients-feedback {
     grid-template-columns: repeat(1, 1fr);
@@ -492,7 +496,6 @@
   }
 }
 
-
 /* Responsive for Mobile max-width: 710px*/
 /* Responsive for Mobile max-width: 710px*/
 
@@ -502,7 +505,7 @@
     padding: 5px 20px;
   }
   .logo > img {
-    width: 100px;
+    width: 80px;
   }
   .contact-button button {
     padding: 8px 15px;
@@ -511,10 +514,21 @@
 
   /* Hero section */
   .hero-section .profile-image img {
-    width: 300px;
+    width: 260px;
+    min-width: 230px;
+    height: 250px;
+  }
+  .port-title span {
+    font-size: 1em;
+    font-weight: 500;
   }
   .my-work {
-    font-size: 1.8em;
+    font-size: 1.5em;
+  }
+  .work-related {
+    font-size: 1em;
+    padding-bottom: 20px;
+    width: 100%;
   }
 }
 /* Responsive for Mobile max-width: 677px*/
@@ -526,30 +540,157 @@
     padding: 5px 20px;
   }
   .logo > img {
-    width: 100px;
+    width: 80px;
   }
   /* Hero section */
   .hero-section .profile-image img {
-    width: 280px;
-    height: 280px;
+    width: 260px;
+    height: 250px;
   }
   .my-work {
     font-size: 1.5em;
   }
 }
 
-/* Responsive for Mobile max-width: 589px*/
-/* Responsive for Mobile max-width: 589px*/
+/* Responsive for Mobile max-width: 591px*/
+/* Responsive for Mobile max-width: 591px*/
 
-@media screen and (max-width: 589px) {
-  
+@media screen and (max-width: 591px) {
   /* Hero section */
   .hero-section .profile-image img {
-    width: 270px;
-    height: 270px;
+    width: 200px;
+    height: 220px;
   }
   .my-work {
-    font-size: 1.4em;
+    font-size: 1.2em;
+  }
+
+  /* Skill Section */
+  .my-skills {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* About Section */
+  .about-section .profile-image img {
+    max-width: 300px;
+  }
+  .about-me {
+    width: 90%;
+    font-size: 1.2em;
+  }
+
+  /* portfolio-project-section */
+  .portfolio-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* testimonials section */
+  .clients-feedback {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* Contact Form */
+  .form-group textarea {
+    height: 15vh;
   }
 }
 
+/* Responsive for Mobile max-width: 566px*/
+/* Responsive for Mobile max-width: 566px*/
+
+@media screen and (max-width: 566px) {
+  /* Navbar Section */
+  .nav-link li {
+    display: none;
+  }
+  .hero-section .profile-image img {
+    width: 200px;
+    min-width: 180px;
+    height: 200px;
+  }
+
+  /* About Section */
+  .about-section {
+    display: grid;
+  }
+  .about-me {
+    width: 80%;
+    font-size: 1.2em;
+  }
+
+  /* portfolio-project-section */
+  .port-project-nav .visit-dribble {
+    height: 35px;
+    padding: 0 8px;
+    font-size: 12px;
+    & img {
+      padding-right: 8px;
+      width: 25px;
+    }
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea,
+  .form-group button {
+    padding: 10px 2px;
+    margin: 0;
+  }
+  .footer-2 a {
+    color: #000;
+    padding-left: 10px;
+    font-size: 8px;
+  }
+}
+
+/* Responsive for Mobile max-width: 415px*/
+/* Responsive for Mobile max-width: 415px*/
+@media screen and (max-width: 415px) {
+  .work-related {
+    display: none;
+  }
+  .get-in-touch {
+    padding: 8px 10px;
+    font-weight: 100;
+    white-space: nowrap;
+  }
+  .hero-section .profile-image img {
+    width: 180px;
+    min-width: 180px;
+    height: 180px;
+  }
+
+  .about-section .profile-image img {
+    width: 100%;
+    max-width: 200px;
+    min-width: 180px;
+    background-color: #f5fcff;
+    border-radius: 10% 30%;
+    box-shadow: 0 0 15px #a2dcf5;
+  }
+
+  .port-project-nav .visit-dribble {
+    display: none;
+  }
+
+  .contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 94%;
+    padding-top: 30px;
+    /* text-align: center; */
+  }
+
+  .footer-1,
+  .footer-2 {
+    padding: 20px 10px;
+  }
+  .footer-1 .social-link > a > img {
+    width: 20px;
+  }
+  .footer-2 a {
+    display: none;
+  }
+}
