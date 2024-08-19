@@ -249,7 +249,7 @@
   padding: 10px 0;
 }
 
-.view-in-dribble>img{
+.view-in-dribble > img {
   padding-left: 5px;
   width: 15px;
 }
@@ -390,10 +390,11 @@
   font-size: 12px;
 }
 
-/* Responsive for Mobile */
-/* Responsive for Mobile */
 
-@media screen and (max-width: 770px) {
+/* Responsive for Mobile max-width: 800px*/
+/* Responsive for Mobile max-width: 800px*/
+
+@media screen and (max-width: 800px) {
   /* Navbar Section */
   .logo > img {
     width: 90px;
@@ -418,12 +419,26 @@
   .hero-section .profile-image img {
     width: 310px;
   }
+
+  .hero-text {
+    padding: 7% 0 5% 10%;
+  }
+  .port-title{
+    padding-top: 50px;
+  }
+  .port-title span {
+    font-size: 1.1em;
+    font-weight: 500;
+  }
   .my-work {
     font-size: 2em;
   }
   .work-related {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     width: 100%;
+  }
+  .get-in-touch {
+    padding: 10px 12px;
   }
 
   /* Skill Section */
@@ -450,7 +465,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
-  
+
   /* testimonials section */
   .clients-feedback {
     grid-template-columns: repeat(1, 1fr);
@@ -476,3 +491,65 @@
     padding: 10px 50px;
   }
 }
+
+
+/* Responsive for Mobile max-width: 710px*/
+/* Responsive for Mobile max-width: 710px*/
+
+@media screen and (max-width: 710px) {
+  /* Navbar */
+  .navbar {
+    padding: 5px 20px;
+  }
+  .logo > img {
+    width: 100px;
+  }
+  .contact-button button {
+    padding: 8px 15px;
+    font-size: 0.9em;
+  }
+
+  /* Hero section */
+  .hero-section .profile-image img {
+    width: 300px;
+  }
+  .my-work {
+    font-size: 1.8em;
+  }
+}
+/* Responsive for Mobile max-width: 677px*/
+/* Responsive for Mobile max-width: 677px*/
+
+@media screen and (max-width: 677px) {
+  /* Navbar */
+  .navbar {
+    padding: 5px 20px;
+  }
+  .logo > img {
+    width: 100px;
+  }
+  /* Hero section */
+  .hero-section .profile-image img {
+    width: 280px;
+    height: 280px;
+  }
+  .my-work {
+    font-size: 1.5em;
+  }
+}
+
+/* Responsive for Mobile max-width: 589px*/
+/* Responsive for Mobile max-width: 589px*/
+
+@media screen and (max-width: 589px) {
+  
+  /* Hero section */
+  .hero-section .profile-image img {
+    width: 270px;
+    height: 270px;
+  }
+  .my-work {
+    font-size: 1.4em;
+  }
+}
+
