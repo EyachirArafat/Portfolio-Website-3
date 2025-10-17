@@ -1,6 +1,6 @@
 # 🎨 Modern Portfolio Website
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Site-brightgreen?style=for-the-badge&logo=vercel)](https://eyachirarafat.github.io/Portfolio-Website-3/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Site-brightgreen?style=for-the-badge&logo=vercel)](https://eyachirarafat.github.io/professional-portfolio/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -73,7 +73,7 @@ portfolio-website/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/EyachirArafat/Portfolio-Website-3.git
+git clone https://github.com/EyachirArafat/professional-portfolio
 ```
 
 2. **Navigate to project directory**
@@ -229,7 +229,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Eyachir Arafat**
 - GitHub: [@eyachirarafat](https://github.com/EyachirArafat)
-- Live Demo: [Portfolio Website](https://eyachirarafat.github.io/Portfolio-Website-3/)
+- Live Demo: [Portfolio Website](https://eyachirarafat.github.io/professional-portfolio/)
 
 ## 🙏 Acknowledgments
 
@@ -259,11 +259,11 @@ For support, email your-email@example.com or create an issue in the GitHub repos
 
 ## 📊 Project Stats
 
-![GitHub stars](https://img.shields.io/github/stars/EyachirArafat/Portfolio-Website-3?style=social)
-![GitHub forks](https://img.shields.io/github/forks/EyachirArafat/Portfolio-Website-3?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/EyachirArafat/Portfolio-Website-3?style=social)
-![GitHub last commit](https://img.shields.io/github/last-commit/EyachirArafat/Portfolio-Website-3)
-![GitHub issues](https://img.shields.io/github/issues/EyachirArafat/Portfolio-Website-3)
+![GitHub stars](https://img.shields.io/github/stars/EyachirArafat/professional-portfolio?style=social)
+![GitHub forks](https://img.shields.io/github/forks/EyachirArafat/professional-portfolio?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/EyachirArafat/professional-portfolio?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/EyachirArafat/professional-portfolio)
+![GitHub issues](https://img.shields.io/github/issues/EyachirArafat/professional-portfolio)
 
 ---
 
